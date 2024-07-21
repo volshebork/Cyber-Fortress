@@ -19,19 +19,4 @@ foreach ($User in $UsersToRemove) {
     }
 }
 
-# This is the list of the users that the script will remove from Domain Admins.
-# Save this list as C:\Scripts\Users_To_Remove_From_Domain_Admins.txt
-Elena.Morrison
-benjamin.spencer
-david.barker
-harriet.ryan
-isabel.evans
-jasmine.lowe
-josh.dean
-katherine.barrett
-kian.burns
-leo.moss
-martin.richardson
-noah.jordan
-rhys.west
-margaret.encino
+# Save the list of users to remove as C:\Scripts\Users_To_Remove_From_Domain_Admins.txt
