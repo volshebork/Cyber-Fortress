@@ -18,4 +18,3 @@ set-aDUser -identity $user -passwordneverexpires $false -changepasswordatlogon $
 write-output 'Complete.'
 
 # Save the list of users to remove as "C:\Scripts\Users_to_remove.txt"
-
