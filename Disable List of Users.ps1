@@ -1,3 +1,4 @@
+# You must first create a .txt file with the list of users you want to remove.
 # Set path of the Users_to_remove.txt
 $DomainUsersPath = "C:\Scripts\Users_to_remove.txt"
 
