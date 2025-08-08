@@ -1,3 +1,4 @@
+# You must first create a .txt file with the list of users you want to remove.
 # Set the path of Users_To_Remove_From_Domain_Admins.txt
 $UsersFile = "C:\Scripts\Users_To_Remove_From_Domain_Admins.txt"
 $UsersToRemove = Get-Content $UsersFile
@@ -20,3 +21,4 @@ foreach ($User in $UsersToRemove) {
 }
 
 # Save the list of users to remove as C:\Scripts\Users_To_Remove_From_Domain_Admins.txt
+
