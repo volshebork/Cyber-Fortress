@@ -21,4 +21,3 @@ foreach ($User in $UsersToRemove) {
 }
 
 # Save the list of users to remove as C:\Scripts\Users_To_Remove_From_Domain_Admins.txt
-
