@@ -1,3 +1,3 @@
 # Get workstations in the domain.
-Get-ADcomputer -filter {Operatingsystem -like '*Windows8Workstation*'} -properties name |
+Get-ADcomputer -filter {OperatingSystem -like '*Windows*' -and OperatingSystem -notlike '*Server*'} -properties name |
 select-object name
