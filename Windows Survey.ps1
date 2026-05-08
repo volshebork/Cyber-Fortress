@@ -1,4 +1,16 @@
-#Before starting, you must run "Set-ExecutionPolicy -Scope Process Bypass -Force"
+<#
+.SYNOPSIS
+    This script will conduct a Windows Threat-Hunting Survery.
+
+.DESCRIPTION
+    This script will conduct a Windows Threat-Hunting Survery.
+    Before starting, you must run "Set-ExecutionPolicy -Scope Process Bypass -Force"
+
+.NOTES
+    Author: Oscar Cortez
+    Created: 2025-08-15
+    Last Updated: 2025-08-15
+#>
 
 <# ================= Windows Threat-Hunting Survey (PS 5.1 compatible, no file locks) ================= #>
 

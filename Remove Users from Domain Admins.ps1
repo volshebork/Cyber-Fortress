@@ -1,6 +1,20 @@
-# You must first create a .txt file with the list of users you want to remove.
+<#
+.SYNOPSIS
+    This script will remove a list of users from the Domain Admins OU.
+
+.DESCRIPTION
+    This script will remove a list of users from the Domain Admins OU.
+    You must first create C:\Temp\Remove_Domain_Admins\Users_To_Remove_From_Domain_Admins.txt
+    This file should contain the samaccountnames of the users you want removed from Domain Admins.
+
+.NOTES
+    Author: Oscar Cortez
+    Created: 2024-08-15
+    Last Updated: 2024-08-15
+#>
+
 # Set the path of Users_To_Remove_From_Domain_Admins.txt
-$UsersFile = "C:\Scripts\Users_To_Remove_From_Domain_Admins.txt"
+$UsersFile = "C:\Temp\Remove_Domain_Admins\Users_To_Remove_From_Domain_Admins.txt"
 $UsersToRemove = Get-Content $UsersFile
 $DomainAdminsGroup = "Domain Admins"
 
